@@ -48,6 +48,7 @@ SOONG_CONFIG_genesisGlobalVars += \
     target_ld_shim_libs \
     target_surfaceflinger_udfps_lib \
     uses_egl_display_array \
+    uses_miui_camera \
     uses_nothing_camera \
     uses_oplus_camera \
     uses_oppo_camera
@@ -78,6 +79,7 @@ SOONG_CONFIG_genesisGlobalVars_gralloc_handle_has_custom_content_md_reserved_siz
 SOONG_CONFIG_genesisGlobalVars_gralloc_handle_has_reserved_size := $(TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE)
 SOONG_CONFIG_genesisGlobalVars_gralloc_handle_has_ubwcp_format := $(TARGET_GRALLOC_HANDLE_HAS_UBWCP_FORMAT)
 SOONG_CONFIG_genesisGlobalVars_uses_egl_display_array := $(TARGET_USES_EGL_DISPLAY_ARRAY)
+SOONG_CONFIG_genesisGlobalVars_uses_miui_camera := $(TARGET_USES_MIUI_CAMERA)
 SOONG_CONFIG_genesisNvidiaVars_uses_nvidia_enhancements := $(NV_ANDROID_FRAMEWORK_ENHANCEMENTS)
 SOONG_CONFIG_genesisGlobalVars_uses_nothing_camera := $(TARGET_USES_NOTHING_CAMERA)
 SOONG_CONFIG_genesisGlobalVars_uses_oplus_camera := $(TARGET_USES_OPLUS_CAMERA)
