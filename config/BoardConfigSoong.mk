@@ -49,7 +49,8 @@ SOONG_CONFIG_genesisGlobalVars += \
     target_surfaceflinger_udfps_lib \
     uses_egl_display_array \
     uses_nothing_camera \
-    uses_oplus_camera
+    uses_oplus_camera \
+    uses_oppo_camera
 
 SOONG_CONFIG_NAMESPACES += genesisNvidiaVars
 SOONG_CONFIG_genesisNvidiaVars += \
@@ -80,6 +81,7 @@ SOONG_CONFIG_genesisGlobalVars_uses_egl_display_array := $(TARGET_USES_EGL_DISPL
 SOONG_CONFIG_genesisNvidiaVars_uses_nvidia_enhancements := $(NV_ANDROID_FRAMEWORK_ENHANCEMENTS)
 SOONG_CONFIG_genesisGlobalVars_uses_nothing_camera := $(TARGET_USES_NOTHING_CAMERA)
 SOONG_CONFIG_genesisGlobalVars_uses_oplus_camera := $(TARGET_USES_OPLUS_CAMERA)
+SOONG_CONFIG_genesisGlobalVars_uses_oppo_camera := $(TARGET_USES_OPPO_CAMERA)
 SOONG_CONFIG_genesisQcomVars_qti_vibrator_use_effect_stream := $(TARGET_QTI_VIBRATOR_USE_EFFECT_STREAM)
 SOONG_CONFIG_genesisQcomVars_supports_extended_compress_format := $(AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT)
 SOONG_CONFIG_genesisQcomVars_uses_pre_uplink_features_netmgrd := $(TARGET_USES_PRE_UPLINK_FEATURES_NETMGRD)
